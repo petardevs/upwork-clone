@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Upwork Clone</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+   <header>
+      <div class="navbar">
+         <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div class="nav-links">
+            <a href="#" class="logo">
+               <img src="assets/img/logo.svg" alt="logo">
+            </a>
+            <div class="nav-list">
+               <div class="dropdown-btn">
+                  <a href="#" class="nav-link active">Find Work<img src="assets/img/caret.svg" alt="caret"></a>
+
+                  <ul class="dropdown-list">
+                     <li class="active">Find Work</li>
+                     <li>Saved Jobs</li>
+                     <li>Proposals</li>
+                     <li>Profile</li>
+                     <li>My Stats</li>
+                     <li>My Project Dashboard</li>
+                  </ul>
+               </div>
+               <div class="dropdown-btn">
+                  <a href="#" class="nav-link">My Jobs<img src="assets/img/caret.svg" alt="caret"></a>
+                  <ul class="dropdown-list">
+                     <li>My Jobs</li>
+                     <li>All Contracts</li>
+                     <li>Work Diary</li>
+                  </ul>
+               </div>
+               <div class="dropdown-btn">
+                  <a href="#" class="nav-link">Reports<img src="assets/img/caret.svg" alt="caret"></a>
+                  <ul class="dropdown-list">
+                     <li>Overview</li>
+                     <li>My Reports</li>
+                     <li>Billings & Earnings</li>
+                     <li>Connects History</li>
+                     <li>Transaction History</li>
+                     <li>Certificate of Earnings</li>
+                  </ul>
+               </div>
+               <a href="#" class="nav-link">Messages</a>
+            </div>
+         </div>
+         <div class="nav-right">
+            <div class="search-container">
+               <div class="search-input">
+                  <img src="assets/img/search.svg" alt="search">
+                  <input type="search" placeholder="Search">
+               </div>
+               <div class="line"></div>
+               <div class="search-type">
+                  <div class="dropdown-btn">
+                     <a  class="nav-link">Jobs<img src="assets/img/caret.svg" alt="caret"></a>
+   
+                     <ul class="dropdown-list">
+                        <li class="active">
+                           <img src="assets/img/jobs.svg" alt="">
+                           <span class="search-option">Jobs</span>
+                           <span class="search-query">Apply to jobs posted by clients</span>
+                        </li>
+                        <li>
+                           <img src="assets/img/talent.svg" alt="">
+                           <span class="search-option">Talent</span>
+                           <span class="search-query">Find freelancers and agencies</span>
+                        </li>
+                        <li>
+                           <img src="assets/img/project.svg" alt="">
+                           <span class="search-option">Projects</span>
+                           <span class="search-query">See projects from other pros</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="icons">
+               <a href="#" class="icon search-mobile">
+                  <img src="assets/img/search.svg" alt="">
+               </a>
+               <a href="#" class="icon">
+                  <img src="assets/img/question-mark.svg" alt="">
+               </a>
+               <a href="#" class="icon">
+                  <img src="assets/img/plane.svg" alt="">
+               </a>
+               <a href="#" class="icon">
+                  <img src="assets/img/grid.svg" alt="">
+               </a>
+               <a href="#" class="icon">
+                  <img src="assets/img/bell.svg" alt="">
+               </a>
+               <a href="#" class="icon profile-btn">
+                  <img src="assets/img/profile.webp" alt="">
+               </a>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <div class="main-container">
+      <div class="left">
+         <div class="autoplay-slider">
+            <div class="progress-bars">
+               <div class="progress-wrapp">
+                  <div class="progress-bar active">
+                     <div class="fill" style="--progress:0;"></div>
+                  </div>
+               </div>
+               <div class="progress-wrapp">
+                  <div class="progress-bar">
+                     <div class="fill" style="--progress:0;"></div>
+                  </div>
+               </div>
+               <div class="progress-wrapp">
+                  <div class="progress-bar">
+                     <div class="fill" style="--progress:0;"></div>
+                  </div>
+               </div>
+               <div class="progress-wrapp">
+                  <div class="progress-bar">
+                     <div class="fill" style="--progress:0;"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper mySwiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide" style="--bg: #13544e;">
+                     <div class="banner-header">
+                        <h3>Rise to the top of the client's list</h3>
+                        <h2>Boosted Proposals deliver 10x more earnings on ad spend</h2>
+                        <a href="#" class="btn">Boost now</a>
+                     </div>
+                     <img src="assets/img/boost.svg" alt="">
+                  </div>
+                  <div class="swiper-slide" style="--bg: #1f57c3;">
+                     <div class="banner-header">
+                        <h3>Stand out and win more work</h3>
+                        <h2>Ads are a proven way to help you get hired at any stage of your career.</h2>
+                        <a href="#" class="btn">Show me how</a>
+                     </div>
+                     <img src="assets/img/rocket.svg" alt="">
+                  </div>
+                  <div class="swiper-slide" style="--bg: #14a800;">
+                     <div class="banner-header">
+                        <h3>Upwork 101 will guide you through the basics of our platform.</h3>
+                        <h2>Learn how to get started on Upwork</h2>
+                        <a href="#" class="btn">Explore Upwork 101</a>
+                     </div>
+                     <img src="assets/img/man.svg" alt="">
+                  </div>
+                  <div class="swiper-slide" style="--bg: #1f57c3;">
+                     <div class="banner-header">
+                        <h3>Win work with ads</h3>
+                        <h2>Freelancers who turn on their Availability Badge receive up to 50% more invites</h2>
+                        <a href="#" class="btn">Edit badge</a>
+                     </div>
+                     <img src="assets/img/available.svg" alt="">
+                  </div>
+               </div>
+               <div class="swiper-button-next" style="display: none !important;"></div>
+               <div class="swiper-button-prev" style="display: none !important;"></div>
+               <div class="swiper-pagination" style="display: none !important;"></div>
+               <div class="autoplay-progress" style="display: none !important;">
+                  <svg viewBox="0 0 48 48">
+                     <circle cx="24" cy="24" r="20"></circle>
+                  </svg>
+                  <span></span>
+               </div>
+            </div>
+         </div>
+         <div class="search-container">
+            <div class="search-input">
+               <img src="assets/img/search.svg" alt="search">
+               <input type="search" placeholder="Search for jobs">
+            </div>
+         </div>
+         <div class="main">
+            <div class="pb">
+               <h2>Jobs you might like</h2>
+               <div class="tabs">
+                  <div class="tab-list">
+                     <div class="tab active">Best Matches</div>
+                     <div class="tab">Most Recent</div>
+                     <div class="tab">Saved Jobs (1)</div>
+                  </div>
+               </div>
+            </div>
+            <div class="jobs">
+               <div class="section-description">
+                  <span>Browse jobs that match your experience to a client's hiring preferences. Ordered by most relevant.</span>
+               </div>
+               <div>
+                  <section class="post">
+                     <div class="post-mb">
+                        <div class="span-11">
+                           <span class="post-time">Posted 1 hour ago</span>
+                           <h3 class="job-title">Rebuild this website in Webflow</h3>
+                        </div>
+                        <div class="job-title-icons">
+                           <div class="icon">
+                              <img src="assets/img/downvote.svg" alt="">
+                           </div>
+                           <div class="icon">
+                              <img src="assets/img/like.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div>
+                        <small class="post-info">Fixed-price - Intermediate - Est. Budget: $150</small>
+                        <div class="post-desc">
+                           <div class="text-clamped is-clamped">I'd like you to bring this existing website over to Webflow. https://beachcottageinn.com/ The result should be responsive. The current site is not. I can provide a full zip archive of the current site with all assets. I also still have the psd files from the original photoshop work I did. You can build in your webflow account and then we can transfer to mine. This is not a rush job, we have 30 days to complete. Table of Contents [for reference] Site Index Welcome to Lincolnville Beach, Maine Rooms & Rates available for nightly or weekly stays Maine Vacation Packages Meet your hosts Rob & Dorothee Newcombe Directions to the Beach Cottage Inn Things to see and do in Midcoast, Maine Contact the Beach Cottage Inn for Maine Vacation Rental Reservations</div>
+                           <button class="clamp-more">more</button>
+                        </div>
+                     </div>
+                     <div class="tags">
+                        <div class="tag">Webflow</div>
+                        <div class="tag">Web Design</div>
+                        <div class="tag">HTML</div>
+                        <div class="tag">CSS</div>
+                        <div class="tag">Web Development</div>
+                     </div>
+                     <div class="badge-line">
+                        <div class="payment-status">
+                           <img src="assets/img/badge.svg" alt="">
+                           <p>Payment verified</p>
+                        </div>
+                        <div class="rating">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                        </div>
+                        <div class="amount-spent">
+                           <span>$300+ </span>spent
+                        </div>
+                        <div class="location">
+                           <img src="assets/img/location.svg" alt="">
+                           <p>United States</p>
+                        </div>
+                     </div>
+                     <div class="post-activity">
+                        <p>Proposals: </p>
+                        <span>15 to 20</span>
+                     </div>
+                  </section>
+                  <section class="post">
+                     <div class="post-mb">
+                        <div class="span-11">
+                           <div class="featured-badge">
+                              <img src="assets/img/diamond.svg" alt="">
+                              <p>Featured</p>
+                           </div>
+                           <span class="post-time">Posted 5 hours ago</span>
+                           <h3 class="job-title">Webflow developer for a website build</h3>
+                        </div>
+                        <div class="job-title-icons">
+                           <div class="icon">
+                              <img src="assets/img/downvote.svg" alt="">
+                           </div>
+                           <div class="icon">
+                              <img src="assets/img/like.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div>
+                        <small class="post-info">Hourly: $25-$55 - Expert - Est. Time: Less than 1 month, Less than 30 hrs/week</small>
+                        <div class="post-desc">
+                           <div class="text-clamped is-clamped">We are looking for a skilled Front-End Developer to quickly turn static visual designs into fully functional websites using semantic HTML and CSS. The ideal candidate will convert provided designs into responsive, cross-browser compatible web pages with a focus on accessibility and SEO best practices. You should have a strong understanding of HTML5, CSS3, and be proficient in using CSS preprocessors like SASS or LESS. Experience with responsive and mobile-first design is essential. This project has a tight deadline; hence, efficiency and the ability to deliver within one week are crucial. We will provide you with the static designs by Friday, and we will need the results by the following Friday. Please include examples of previous work that showcase your expertise in converting designs into clean, semantic HTML and CSS. This short-term project is an excellent opportunity for someone looking to demonstrate precision, skill, and the ability to work under pressure. If you are passionate about modern web development standards and delivering high-quality work, we'd love to hear from you, we'll pay you well for the quick turnaround, and we'll review well.</div>
+                           <button class="clamp-more">more</button>
+                        </div>
+                     </div>
+                     <div class="tags">
+                        <div class="tag">Webflow</div>
+                        <div class="tag">Responsive Design</div>
+                        <div class="tag">HTML</div>
+                        <div class="tag">CSS</div>
+                        <div class="tag">Figma</div>
+                     </div>
+                     <div class="badge-line">
+                        <div class="payment-status">
+                           <img src="assets/img/badge.svg" alt="">
+                           <p>Payment verified</p>
+                        </div>
+                        <div class="rating">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                        </div>
+                        <div class="amount-spent">
+                           <span>$2.7k+ </span>spent
+                        </div>
+                        <div class="location">
+                           <img src="assets/img/location.svg" alt="">
+                           <p>Serbia</p>
+                        </div>
+                     </div>
+                     <div class="post-activity">
+                        <p>Proposals: </p>
+                        <span>5 to 10</span>
+                     </div>
+                  </section>
+                  <section class="post">
+                     <div class="post-mb">
+                        <div class="span-11">
+                           <span class="post-time">Posted 2 days ago</span>
+                           <h3 class="job-title">Web developer for AI company</h3>
+                        </div>
+                        <div class="job-title-icons">
+                           <div class="icon">
+                              <img src="assets/img/downvote.svg" alt="">
+                           </div>
+                           <div class="icon">
+                              <img src="assets/img/like.svg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div>
+                        <small class="post-info">Fixed-price - Intermediate - Est. Budget: $750</small>
+                        <div class="post-desc">
+                           <div class="text-clamped is-clamped">I'd like you to bring this existing website over to Webflow. https://beachcottageinn.com/ The result should be responsive. The current site is not. I can provide a full zip archive of the current site with all assets. I also still have the psd files from the original photoshop work I did. You can build in your webflow account and then we can transfer to mine. This is not a rush job, we have 30 days to complete. Table of Contents [for reference] Site Index Welcome to Lincolnville Beach, Maine Rooms & Rates available for nightly or weekly stays Maine Vacation Packages Meet your hosts Rob & Dorothee Newcombe Directions to the Beach Cottage Inn Things to see and do in Midcoast, Maine Contact the Beach Cottage Inn for Maine Vacation Rental Reservations</div>
+                           <button class="clamp-more">more</button>
+                        </div>
+                     </div>
+                     <div class="tags">
+                        <div class="tag">Webflow</div>
+                        <div class="tag">Web Design</div>
+                        <div class="tag">HTML</div>
+                        <div class="tag">CSS</div>
+                        <div class="tag">GSAP</div>
+                        <div class="tag">Spline</div>
+                     </div>
+                     <div class="badge-line">
+                        <div class="payment-status">
+                           <img src="assets/img/badge.svg" alt="">
+                           <p>Payment verified</p>
+                        </div>
+                        <div class="rating">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                           <img src="assets/img/star.svg" alt="">
+                        </div>
+                        <div class="amount-spent">
+                           <span>$40k+ </span>spent
+                        </div>
+                        <div class="location">
+                           <img src="assets/img/location.svg" alt="">
+                           <p>United States</p>
+                        </div>
+                     </div>
+                     <div class="post-activity">
+                        <p>Proposals: </p>
+                        <span>20 to 50</span>
+                     </div>
+                  </section>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="right">
+         <div class="profile-card">
+            <a href="#" class="profile-info">
+               <img src="assets/img/profile.webp" alt="">
+               <div class="my-info">
+                  <h3>Petar P.</h3>
+                  <p>Webflow Expert | Front-End Developer</p>
+               </div>
+            </a>
+            <div class="complete-profile">
+               <a href="#">Complete your profile</a>
+               <div class="progress">
+                  <div class="profile-progress-bar"></div>
+                  <div class="percent">100%</div>
+               </div>
+            </div>
+         </div>
+         <div class="sidebar">
+            <div class="dropdownSb">
+               <div class="dropdownSb-btn">
+                  <h3>Promote with ads</h3>
+                  <img src="assets/img/caret.svg" alt="">
+               </div>
+               <div class="dropdownSb-content show" style="height: 108px;">
+                  <div class="rows">
+                     <div class="available">
+                        <div>
+                           <h5>Availability badge</h5>
+                           <p>Off</p>
+                        </div>
+                        <img src="assets/img/edit.svg" alt="">
+                     </div>
+                     <div class="available">
+                        <div>
+                           <h5>Boost your profile</h5>
+                           <p>Off</p>
+                        </div>
+                        <img src="assets/img/edit.svg" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="dropdownSb">
+               <div class="dropdownSb-btn">
+                  <h3>Connects</h3>
+                  <img src="assets/img/caret.svg" alt="">
+               </div>
+               <div class="dropdownSb-content" style="height: 0;">
+                  <div class="rows">
+                     <div class="available">
+                        <div>
+                           <h5>Available: 33</h5>
+                        </div>
+                     </div>
+                     <div class="available">
+                        <div>
+                           <div class="buy-connects">
+                              <a href="#">View details</a>
+                              <div class="line"></div>
+                              <a href="#">Buy connects</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="dropdownSb">
+               <div class="dropdownSb-btn">
+                  <h3>Preferences</h3>
+                  <img src="assets/img/caret.svg" alt="">
+               </div>
+               <div class="dropdownSb-content" style="height: 0;">
+                  <div class="rows">
+                     <div class="available">
+                        <div>
+                           <h5>Hours per week</h5>
+                           <p>As Needed - Open to Offers</p>
+                        </div>
+                        <img src="assets/img/edit.svg" alt="">
+                     </div>
+                     <div class="available">
+                        <div>
+                           <h5>Profile Visibility</h5>
+                           <p>Public</p>
+                        </div>
+                        <img src="assets/img/edit.svg" alt="">
+                     </div>
+                     <div class="available">
+                        <div>
+                           <h5>Job Preference</h5>
+                           <p>Open to contract-to-hire roles</p>
+                        </div>
+                        <img src="assets/img/edit.svg" alt="">
+                     </div>
+                     <div class="available">
+                        <div>
+                           <h5>My Categories</h5>
+                           <a href="#">Web Development</a>
+                        </div>
+                        <img src="assets/img/edit.svg" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="dropdownSb">
+               <div class="dropdownSb-btn">
+                  <h3>Proposals</h3>
+                  <img src="assets/img/caret.svg" alt="">
+               </div>
+               <div class="dropdownSb-content" style="height: 0;">
+                  <div class="rows">
+                     <div class="available">
+                        <div>
+                           <a href="#">My Proposals</a>
+                        </div>
+                     </div>
+                     <div class="available">
+                        <div>
+                           <a href="#">1 active candidate</a>
+                        </div>
+                     </div>
+                     <div class="available">
+                        <div>
+                           <a href="#">2 submitted proposals</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="dropdownSb">
+               <div class="dropdownSb-btn">
+                  <h3>Project Catalog</h3>
+                  <img src="assets/img/caret.svg" alt="">
+               </div>
+               <div class="dropdownSb-content" style="height: 0;">
+                  <div class="rows">
+                     <div class="available">
+                        <div>
+                           <a href="#">My Project Dashboard</a>
+                        </div>
+                     </div>
+                     <div class="available">
+                        <div>
+                           <p><a href="#">Create a Catalog project</a> for clients to purchase instantly</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="references">
+            <a href="#">Upwork Academy <img src="assets/img/out.svg" alt=""></a>
+            <a href="#">Direct Contracts <img src="assets/img/out.svg" alt=""></a>
+            <a href="#">Get Paid <img src="assets/img/out.svg" alt=""></a>
+            <a href="#">Community & Forums <img src="assets/img/out.svg" alt=""></a>
+            <a href="#">Help Center <img src="assets/img/out.svg" alt=""></a>
+         </div>
+      </div>
+   </div>
+
+   <div class="footer">
+      <div class="container">
+         <div class="footer-padding">
+            <div class="footer-columns">
+               <div class="footer-col">
+                  <a href="#" class="footer-link">About us</a>
+                  <a href="#" class="footer-link">Feedback</a>
+                  <a href="#" class="footer-link">Community</a>
+               </div>
+               <div class="footer-col">
+                  <a href="#" class="footer-link">Trust, Safety & Security</a>
+                  <a href="#" class="footer-link">Help & Support</a>
+                  <a href="#" class="footer-link">Upwork Foundation</a>
+               </div>
+               <div class="footer-col">
+                  <a href="#" class="footer-link">Terms of Service</a>
+                  <a href="#" class="footer-link">Privacy Policy</a>
+                  <a href="#" class="footer-link">CA Notice at Collection</a>
+                  <a href="#" class="footer-link">Cookie Settings</a>
+               </div>
+               <div class="footer-col">
+                  <a href="#" class="footer-link">Accessibility</a>
+                  <a href="#" class="footer-link">Desktop App</a>
+                  <a href="#" class="footer-link">Cookie Policy</a>
+                  <a href="#" class="footer-link">Enterprise Solutions</a>
+               </div>
+            </div>
+            <div class="footer-social">
+               <div class="item">
+                  <div class="footer-heading">Follow Us</div>
+                  <div class="socials">
+                     <a href="#"><img src="assets/img/facebook.svg" alt=""></a>
+                     <a href="#"><img src="assets/img/linkedin.svg" alt=""></a>
+                     <a href="#"><img src="assets/img/x.svg" alt=""></a>
+                     <a href="#"><img src="assets/img/yt.svg" alt=""></a>
+                     <a href="#"><img src="assets/img/insta.svg" alt=""></a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="footer-heading">Mobile App</div>
+                  <div class="socials">
+                     <a href="#"><img src="assets/img/ios.svg" alt=""></a>
+                     <a href="#"><img src="assets/img/android.svg" alt=""></a>
+                  </div>
+               </div>
+            </div>
+            <p class="footer-copyright">© 2015 - 2024 Upwork® Global Inc.</p>
+         </div>
+      </div>
+   </div>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+   
+/* const progressBars = document.querySelectorAll('.progress-bars .progress-bar .fill');
+
+// Set initial width of all fill elements to 0
+progressBars.forEach(function (fill) {
+    fill.style.width = '0';
+}); */
+
+
+    const progressCircle = document.querySelector(".progress-bar.active .fill");/* 
+      const progressContent = document.querySelector(".autoplay-progress span"); */
+      var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 0,
+    centeredSlides: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+    },
+    on: {
+        autoplayTimeLeft(s, time, progress) {
+            const progressCircle = document.querySelector(".progress-bar.active .fill");
+            progressCircle.style.setProperty("--progress", 1 - progress);
+        },
+        slideChangeTransitionStart: function () {
+            updateProgressBars(this.realIndex);
+        },
+        slideNextTransitionStart: function () {
+            resetFillWidth();
+        },
+        slidePrevTransitionStart: function () {
+            resetFillWidth();
+        }
+    }
+});
+
+function updateProgressBars(index) {
+    var progressBars = document.querySelectorAll('.progress-bars .progress-bar');
+    progressBars.forEach(function (progressBar, idx) {
+        if (idx === index) {
+            progressBar.classList.add('active');
+            progressBar.classList.remove('was-active');
+        } else if (idx < index) {
+            progressBar.classList.remove('active');
+            progressBar.classList.add('was-active');
+        } else {
+            progressBar.classList.remove('active', 'was-active');
+        }
+    });
+}
+
+function resetFillWidth() {
+    const progressBars = document.querySelectorAll('.progress-bars .progress-bar .fill');
+    progressBars.forEach(function (fill) {
+        fill.style.setProperty("--progress", "0");;
+    });
+}
+
+
+document.querySelectorAll('.progress-wrapp').forEach(function(progressWrapp, index) {
+    progressWrapp.addEventListener('click', function() {
+        swiper.slideTo(index); // Move the slider to the clicked slide index
+    });
+});
+
+
+  </script>
+   <script src="assets/js/script.js"></script>
+
+
+
+
+</body>
+</html>
